@@ -116,16 +116,12 @@ Você pode instruí-las a:
 8. O arquivo `obs.txt` contém um template HTML que pode ser usado diretamente no EmailJS.
 Para usá-lo, copie o conteúdo de `obs.txt` e cole-o no campo de template HTML do EmailJS.
 
-9. Inserir esses dados no lugar dos seus no `script.js`, ao final do arquivo.
+9. Inserir esses dados no lugar dos seus no `script.js`.
 ```bash
 emailjs.init('SEU_USER_ID');
 emailjs.sendForm('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', this);
 ```
-
-
-
 ---
-
 ## 🌱 Melhorias Futuras (Em Planejamento)
 
 - 💾 Armazenar mensagens usando **localStorage** ou integração com banco de dados
