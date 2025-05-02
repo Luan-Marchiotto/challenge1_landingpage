@@ -35,6 +35,8 @@ function respond(msgOriginal) { // respostas das mensagens enviadas
         "Opa! Como posso ajudar hoje?"
     ];
 
+    // Mensagens e repsostas previamente prontas
+
     if (msg.includes('jogo') || msg.includes('próximo')) {
         response = "O próximo jogo da FURIA é neste sábado às 16h contra a NAVI!";
     } else if (msg.includes('resultado') || msg.includes('último')) {
@@ -58,13 +60,15 @@ function respond(msgOriginal) { // respostas das mensagens enviadas
     setTimeout(() => addMessage(response, 'bot'), 500);
 }
 
-emailjs.init("fzqLDVMvxjvu5Cs2t");
+// para envio dos emails
+
+emailjs.init("USER_ID"); // Subistituia aqui pelo user_id no emailJS sendo sua public key
 
 document.getElementById('newsletterForm').addEventListener('submit', function(e) {
   e.preventDefault();
   
   console.log("Formulário enviado");
-  emailjs.sendForm('service_36q755q', 'template_j0ahzde', this)
+  emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', this) // Subistitua aqui pelo service_id e template_id respectivamente
     .then(function(response) {
       console.log('Sucesso:', response); 
 
