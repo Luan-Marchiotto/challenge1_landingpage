@@ -1,0 +1,26 @@
+<div style="font-family: Arial, sans-serif; color: #1c1c1c; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #eaeaea; border-radius: 10px;">
+  <div style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/f/f9/Furia_Esports_logo.png/250px-Furia_Esports_logo.png" alt="FURIA Logo" style="height: 80px; margin-bottom: 20px;">
+  </div>
+
+  <h2 style="color: #000;">Bem-vindo à FURIA, {{user_email}}!</h2>
+
+  <p>Olá, fã da FURIA! 👊</p>
+
+  <p>
+    Obrigado por se inscrever em nossa newsletter. Agora você está oficialmente na mira para novidades mais quentes do mundo FURIA — lançamentos, bastidores, eventos, promoções e muito mais!
+  </p>
+
+  <p><strong>Seu telefone:</strong> {{user_phone}}</p>
+
+  <p>Você está pronto para dar GG com a gente?</p>
+
+  <div style="text-align: center; margin: 30px 0;">
+    <a href="https://www.furia.gg" style="background-color: #000; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 5px;">Conheça mais da FURIA</a>
+  </div>
+
+  <p style="font-size: 12px; color: #888; text-align: center;">
+    Siga-nos também no Instagram: 
+    <a href="https://www.instagram.com/furiagg/" target="_blank">@furiagg</a>
+  </p>
+</div>
